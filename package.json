@@ -1,0 +1,26 @@
+{
+  "name": "vibrator",
+  "version": "0.0.1",
+  "description": "A tiny CommonJS interface to the HTML5 vibrate API.",
+  "author": "Matt Perry <admin@redshiftjs.com>",
+  "homepage": "http://redshiftjs.com",
+  "main": "src/vibrator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InventingWithMonster/vibrator"
+  },
+  "bugs": {
+    "url": "https://github.com/InventingWithMonster/vibrator/issues"
+  },
+  "keywords": [
+    "viewport"
+  ],
+  "analyze": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack src/global.js vibrator.global.min.js -p"
+  },
+  "devDependencies": {
+    "webpack": "1.7.2"
+  }
+}
